@@ -1,0 +1,10 @@
+# htmx.min.js is a vendored, unmodified copy of the htmx library
+# (https://htmx.org) - not code written for this project, pulled in as an
+# off-the-shelf dependency the same way requirements.txt pulls in Flask or
+# pandas. linguist-vendored tells GitHub's language-statistics bar (the
+# "Python 91% / CSS ..." breakdown on the repo's main page) to exclude it,
+# the same way it already automatically excludes binary/data files
+# (images, video, the .csv dataset, the .joblib model) - it counts source
+# actually written for this project, not a third-party library that
+# happens to be committed alongside it.
+static/js/htmx.min.js linguist-vendored

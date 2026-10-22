@@ -1,0 +1,24 @@
+# Secrets / local config - only .env.example belongs in the repo
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime logs (customer chat submissions)
+tradesmart-flask/logs/
+
+# Office lock files and scratch folders
+~$*
+tradesmart-flask/_to_delete/
+
+# Node
+node_modules/
+
+# Over GitHub's 100 MB per-file limit - regenerate with tradesmart-ml/src/train_models.py
+tradesmart-ml/models/random_forest.joblib
+

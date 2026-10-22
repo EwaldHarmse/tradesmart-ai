@@ -1,0 +1,9 @@
+{
+ "test_cars": 3291,
+ "within_10": 0.7538742023701003,
+ "within_15": 0.8757216651473716,
+ "median_pct_error": 0.0530404560609669,
+ "speed_median_ms": 11,
+ "speed_max_ms": 44,
+ "speed_runs": 20
+}

@@ -1,0 +1,34 @@
+{
+ "polo": {
+  "point_estimate": 164155.62,
+  "estimated_low": 122250.52,
+  "estimated_high": 206060.73,
+  "spec_source": "exact_model"
+ },
+ "findings": [
+  {
+   "category": "dent_description",
+   "customer_text": "small dent about the size of a golf ball on the door",
+   "detail": "small, about the size of a golf ball",
+   "confidence": 0.868,
+   "needs_review": false,
+   "review_reason": null
+  },
+  {
+   "category": "respray_mention",
+   "customer_text": "bumper resprayed after a crash",
+   "detail": null,
+   "confidence": 0.396,
+   "needs_review": true,
+   "review_reason": "Contradiction - customer answered 'no accidents' but describes one here."
+  },
+  {
+   "category": "aftermarket_mods",
+   "customer_text": "aftermarket rims fitted by a professional shop",
+   "detail": "wheels; reputable installer",
+   "confidence": 0.818,
+   "needs_review": false,
+   "review_reason": null
+  }
+ ]
+}
