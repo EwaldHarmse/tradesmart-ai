@@ -7,6 +7,8 @@ Autotrader South Africa listings.
 
 Built as a third-year project at VUT.
 
+![TradeSmart AI poster](documentation/TradeSmart_AI_Poster.png)
+
 ## What it does
 
 - **Valuation.** XGBoost regression on make/model, year and mileage, plus
